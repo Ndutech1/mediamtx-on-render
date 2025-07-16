@@ -1,5 +1,3 @@
 FROM docker.io/bluenviron/mediamtx:latest
 
-COPY mediamtx.yml /mediamtx.yml
-
-CMD ["mediamtx", "/mediamtx.yml"]
+COPY mediamtx.yml .
