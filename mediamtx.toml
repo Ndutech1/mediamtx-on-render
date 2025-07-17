@@ -1,0 +1,14 @@
+[server]
+  logLevel = "info"
+
+[rtmp]
+  enabled = true
+
+[hls]
+  enabled = true
+
+[webrtc]
+  enabled = true
+
+[paths.all]
+  source = "publisher"
