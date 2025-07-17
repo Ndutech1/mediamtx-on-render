@@ -1,3 +1,2 @@
-FROM docker.io/bluenviron/mediamtx:1.7.2
-
-COPY mediamtx.yml .
+FROM docker.io/bluenviron/mediamtx:latest
+COPY mediamtx.toml /mediamtx.toml
